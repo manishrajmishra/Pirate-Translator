@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+    --white: #ccc;
+    --dark-black:  #000000;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 818px;
@@ -10,21 +15,22 @@ body {
     margin: auto;
     font-weight: 500;
     text-align: center;
-    background-color: #000000;
-    padding: 1rem 1rem;
+    background-color: var(--dark-black);
+    padding: 0.5rem 1rem;
     margin-bottom: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    color: #ccc;
+    color: var(--white);
 }
 
 #heading p {
-    text-align: start;
+    text-align: left;
     font-size: 1rem;
     margin-top: 0;
     padding: 0 0;
+    font-weight: bolder;
 }
 
 #heading h1 {
@@ -32,7 +38,7 @@ body {
 }
 
 #heading img{
-    max-width: 80%;
+    max-width: 64%;
     max-height: 75%;
 }
 
@@ -41,12 +47,12 @@ body {
     margin: auto;
     margin-left: 1rem;
     margin-right: 1rem;
-    background-color: #111827;
+    background-color: var(--dark-black);
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 1rem;
     font-size: 1rem;
-    color: #ccc;
+    color: var(--white);
 }
 
 section {
@@ -73,7 +79,7 @@ textarea {
     box-sizing: border-box;
     border-radius: 1rem;
     font-size: 1.4rem;
-    background-color: #ccc;
+    background-color: var(--white);
 }
 
 p {
@@ -85,12 +91,12 @@ p {
 }
 
  ::placeholder {
-    color: #000000;
+    color: var(--dark-black);
     font-size: 1.4rem;
 }
 
 footer {
-    background-color:#000000;
+    background-color:var(--dark-black);
     padding: 2rem 0rem;
     margin-top: 3rem;
     border-top-right-radius: 1rem;
@@ -98,7 +104,7 @@ footer {
     text-align: center;
     font-size: 1rem;
     line-height: 2rem;
-    color: #ccc;
+    color: var(--white);
 }
 
 @media screen and (max-width: 535px) {
