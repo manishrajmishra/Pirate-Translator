@@ -3,6 +3,7 @@
 :root {
     --white: #ccc;
     --dark-black:  #000000;
+    --text-area: #ADD8E6;
 }
 
 body {
@@ -79,7 +80,7 @@ textarea {
     box-sizing: border-box;
     border-radius: 1rem;
     font-size: 1.4rem;
-    background-color: #ADD8E6;
+    background-color: var(--text-area);
 }
 
 p {
